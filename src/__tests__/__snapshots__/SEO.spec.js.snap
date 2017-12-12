@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders properly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    B2W-Bit Challenge
+  </title>
+  <meta
+    content="A frontEnd challenge"
+    name="description"
+  />
+  <meta
+    content="Rodrigo Dugin"
+    name="author"
+  />
+  <meta
+    content="challenge"
+    property="og:type"
+  />
+</HelmetWrapper>
+`;

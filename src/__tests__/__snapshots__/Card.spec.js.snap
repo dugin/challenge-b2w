@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders properly 1`] = `
+<styled.section>
+  <Box
+    width={
+      Array [
+        0.8,
+      ]
+    }
+  >
+    <Title
+      text="PLANET NAME"
+    />
+    <Body />
+    <Footer />
+  </Box>
+</styled.section>
+`;

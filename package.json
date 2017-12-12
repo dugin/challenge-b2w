@@ -33,13 +33,14 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.js",
+      "!src/styles/*.js",
       "!src/index.js",
       "!src/registerServiceWorker.js",
       "!src/setupTests.js"
     ]
   },
   "scripts": {
-    "start": "PORT=1337 react-scripts start",
+    "start": "PORT=1234 react-scripts start",
     "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test --env=jsdom --verbose",
     "test:CI": "CI=true npm run test",
