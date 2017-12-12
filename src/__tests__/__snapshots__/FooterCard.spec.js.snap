@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders properly 1`] = `
+<styled.section>
+  <p>
+    FEATURED IN 10 FILMS
+  </p>
+</styled.section>
+`;

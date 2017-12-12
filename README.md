@@ -369,7 +369,7 @@ While you can still use `require()` and `module.exports`, we encourage you to us
 
 For example:
 
-### `Button.js`
+### `Button.spec.js`
 
 ```js
 import React, { Component } from 'react';
@@ -474,13 +474,13 @@ This project setup uses [Webpack](https://webpack.js.org/) for handling all asse
 }
 ```
 
-### `Button.js`
+### `Button.spec.js`
 
 ```js
 import React, { Component } from 'react';
-import './Button.css'; // Tell Webpack that Button.js uses these styles
+import './Button.css'; Button.spec.js
 
-class Button extends Component {
+classButton.spec.jsxtends Component {
   render() {
     // You can use them as regular CSS styles
     return <div className="Button" />;

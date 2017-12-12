@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component renders properly 1`] = `
+<styled.section>
+  <p
+    key="POPULATION"
+  >
+     
+    POPULATION
+    : 
+  </p>
+  <p
+    key="CLIMATE"
+  >
+     
+    CLIMATE
+    : 
+  </p>
+  <p
+    key="TERRAIN"
+  >
+     
+    TERRAIN
+    : 
+  </p>
+</styled.section>
+`;
