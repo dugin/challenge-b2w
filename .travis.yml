@@ -24,6 +24,6 @@ script:
 
 deploy:
   provider: surge
-  project: ./dist/
+  project: ./build/
   domain: b2w-frontend-challenge.surge.sh
   skip_cleanup: true
