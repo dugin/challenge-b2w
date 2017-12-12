@@ -5,7 +5,7 @@ import Card from "../components/Card";
 import Button from "../components/Button";
 
 const Container = styled(Box)`
-  max-width: 1024px;
+  max-width: 470px;
   margin: auto;
   text-align: center;
   
@@ -22,9 +22,9 @@ class Home extends PureComponent {
             <div>
                 <Container width={[
                     7 / 8,
-                    4 / 5,
-                    2 / 3,
-                    1 / 2
+                    4 / 7,
+                    1 / 2,
+                    3 / 7
                 ]}>
                     <Card info={'xyz'}/>
                     <Button text={'Next'}/>
