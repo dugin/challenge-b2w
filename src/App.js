@@ -1,5 +1,7 @@
 import React, {PureComponent} from 'react';
-import {Helmet} from "react-helmet";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import SEO from "./components/SEO";
 
 
 class App extends PureComponent {
@@ -7,8 +9,9 @@ class App extends PureComponent {
     render() {
         return (
             <div>
-                <Helmet title="React App" />
-               Hello World.
+                <SEO/>
+                <Home/>
+                <Footer/>
             </div>
         );
     }
