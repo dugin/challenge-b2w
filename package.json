@@ -19,7 +19,8 @@
     "redux-logger": "^3.0.6",
     "redux-promise-middleware": "^5.0.0",
     "redux-thunk": "^2.2.0",
-    "styled-components": "^2.2.4"
+    "styled-components": "^2.2.4",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.10.0",

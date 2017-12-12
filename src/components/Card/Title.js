@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import colors from "../../styles/constants/colors";
+import PropTypes from "prop-types";
 
 
 const Wrapper = styled.h1`  
@@ -17,5 +18,9 @@ const Title = (props) => {
             {props.text}
         </Wrapper>
     )
+};
+
+Title.propTypes = {
+    text: PropTypes.string.isRequired,
 };
 export default Title;
