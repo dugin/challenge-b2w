@@ -1,9 +1,8 @@
 import React from 'react';
-
 import {Helmet} from "react-helmet";
 
 
-const Header = () => {
+const SEO = () => {
 
     return (
         <Helmet>
@@ -14,4 +13,4 @@ const Header = () => {
         </Helmet>
     )
 };
-export default Header;
+export default SEO;

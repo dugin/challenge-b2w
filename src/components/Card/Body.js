@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import colors from "../styles/constants/colors";
+import colors from "../../styles/constants/colors";
 
 
 const Wrapper = styled.section`  
@@ -8,9 +8,8 @@ const Wrapper = styled.section`
       border-bottom: 1px solid ${colors.pattensBlue};
       & > p{
         color: ${colors.baliHai};
-        font-size: 16px;
+        font-size: 14px;
         text-align: start;
-       
       }
 `;
 
@@ -20,10 +19,7 @@ const Body = (props) => {
 
     return (
         <Wrapper>
-            {constants.map(c => (
-                <p id={c}> {c}: </p>
-            ))}
-
+            {constants.map(c=> <p key={c}> {c}: </p>)}
         </Wrapper>
     )
 };

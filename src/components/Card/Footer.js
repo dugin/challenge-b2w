@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import colors from "../styles/constants/colors";
+import colors from "../../styles/constants/colors";
 
 
 const Wrapper = styled.section`  
@@ -8,7 +8,7 @@ const Wrapper = styled.section`
       justify-content: center;
       & > p{
         color: ${colors.baliHai};
-        font-size: 16px;
+        font-size: 14px;
         text-align: start;
       }
 `;

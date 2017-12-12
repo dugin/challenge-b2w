@@ -5,7 +5,6 @@ import Body from "./Body";
 import Footer from "./Footer";
 import {Box} from 'grid-styled'
 
-
 const Wrapper = styled.section`
       background-color: white;
       display:flex;

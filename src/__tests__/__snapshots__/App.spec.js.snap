@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders properly 1`] = `
+<div>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+    title="React App"
+  />
+  <Home />
+  <styled.footer>
+    Developed by Rodrigo Dugin
+  </styled.footer>
+</div>
+`;
