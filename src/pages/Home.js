@@ -19,7 +19,7 @@ const Container = styled(Box)`
 `;
 
 
-class Home extends PureComponent {
+export class Home extends PureComponent {
 
     onNext = () => {
         if (this.props.planetID) {
@@ -65,7 +65,7 @@ class Home extends PureComponent {
     }
 }
 
-const mapStateToProps = (state) => {
+export const mapStateToProps = (state) => {
     const {planet, amount, isDone, error} = state.planets;
 
     return {

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import colors from "../styles/constants/colors";
 import PropTypes from 'prop-types';
 
-const Wrapper = styled.button`
+export const Wrapper = styled.button`
       box-shadow: 5px 5px 25px 0 ${colors.shadow};
       border-radius: 5px;
       border: none;
@@ -23,8 +23,10 @@ const Wrapper = styled.button`
 
 const Button = (props) => {
 
+    const onClick = () =>  props.onPress;
+
     return (
-        <Wrapper disabled={props.isLoading} onClick={() => props.onPress()}>
+        <Wrapper disabled={props.isLoading} onClick={onClick()}>
             {props.isLoading ? 'Loading... ' : props.text }
         </Wrapper>
     )

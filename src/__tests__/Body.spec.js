@@ -2,10 +2,11 @@ import React from 'react';
 import toJson from 'enzyme-to-json';
 import {shallow} from 'enzyme';
 import Body from "../components/Card/Body";
+import {planetMock} from "../__mocks__/responseMock";
 
 describe('Card Component', () => {
 
-    const body = shallow(<Body/>);
+    const body = shallow(<Body planet={planetMock}/>);
     const constants = ['POPULATION', 'CLIMATE', 'TERRAIN'];
 
 

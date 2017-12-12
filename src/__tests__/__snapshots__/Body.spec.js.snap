@@ -8,6 +8,10 @@ exports[`Card Component renders properly 1`] = `
      
     POPULATION
     : 
+    <styled.span>
+      1000000000000
+       
+    </styled.span>
   </p>
   <p
     key="CLIMATE"
@@ -15,6 +19,10 @@ exports[`Card Component renders properly 1`] = `
      
     CLIMATE
     : 
+    <styled.span>
+      TEMPERATE
+       
+    </styled.span>
   </p>
   <p
     key="TERRAIN"
@@ -22,6 +30,10 @@ exports[`Card Component renders properly 1`] = `
      
     TERRAIN
     : 
+    <styled.span>
+      CITYSCAPE, MOUNTAINS
+       
+    </styled.span>
   </p>
 </styled.section>
 `;

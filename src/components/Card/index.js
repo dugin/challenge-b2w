@@ -7,7 +7,7 @@ import {Box} from 'grid-styled'
 import Loader from "../Loader";
 import PropTypes from "prop-types";
 
-const Wrapper = styled.section`
+export const Wrapper = styled.section`
       background-color: white;
       display:flex;
       flex-direction: column;
@@ -16,7 +16,7 @@ const Wrapper = styled.section`
       box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
       border-radius: 5px;
       position:relative;
-      min-height: 250px;
+      min-height: 270px;
       height: 100%;
 `;
 

@@ -1,3 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button Component renders properly 1`] = `<styled.button />`;
+exports[`Button Component renders properly 1`] = `
+<styled.button
+  disabled={true}
+  onClick={[Function]}
+>
+  Loading... 
+</styled.button>
+`;

@@ -37,7 +37,9 @@
       "!src/styles/*.js",
       "!src/index.js",
       "!src/registerServiceWorker.js",
-      "!src/setupTests.js"
+      "!src/setupTests.js",
+      "!src/configureStore.js",
+      "!src/rootReducer.js"
     ]
   },
   "scripts": {

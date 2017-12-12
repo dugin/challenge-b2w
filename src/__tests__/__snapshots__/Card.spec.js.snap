@@ -2,18 +2,8 @@
 
 exports[`Card Component renders properly 1`] = `
 <styled.section>
-  <Box
-    width={
-      Array [
-        0.8,
-      ]
-    }
-  >
-    <Title
-      text="PLANET NAME"
-    />
-    <Body />
-    <Footer />
-  </Box>
+   
+  <Loader />
+   
 </styled.section>
 `;

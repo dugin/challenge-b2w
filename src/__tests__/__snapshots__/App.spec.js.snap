@@ -3,7 +3,23 @@
 exports[`App Component renders properly 1`] = `
 <div>
   <SEO />
-  <Home />
+  <Switch>
+    <Route
+      component={[Function]}
+      path="/"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/planet/:id"
+    />
+    <Redirect
+      component={[Function]}
+      path="**"
+      push={false}
+      to="/"
+    />
+  </Switch>
   <Footer />
 </div>
 `;

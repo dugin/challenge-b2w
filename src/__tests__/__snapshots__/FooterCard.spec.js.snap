@@ -3,7 +3,12 @@
 exports[`Card Component renders properly 1`] = `
 <styled.section>
   <p>
-    FEATURED IN 10 FILMS
+    FEATURED IN
+    <styled.span>
+       
+      4
+    </styled.span>
+     FILMS
   </p>
 </styled.section>
 `;

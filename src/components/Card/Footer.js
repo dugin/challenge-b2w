@@ -14,7 +14,7 @@ const Wrapper = styled.section`
       }
 `;
 
-const Content = styled.span`  
+export const Content = styled.span`  
       color: ${colors.sapphire};
       font-size: 16px;
 `;

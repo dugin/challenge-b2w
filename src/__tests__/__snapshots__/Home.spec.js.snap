@@ -1,7 +1,169 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Component renders properly 1`] = `
-<div>
+exports[`App Component fetches all planets when clicks on Next and no planet amount available  1`] = `
+.c1 {
+  box-sizing: border-box;
+  width: 87.5%;
+}
+
+.c3 {
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.c4 {
+  color: #06eac3;
+  font-weight: 300;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbe2e8;
+}
+
+.c5 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbe2e8;
+}
+
+.c5 > p {
+  color: #7D97AD;
+  font-size: 14px;
+  text-align: start;
+}
+
+.c6 {
+  color: #00175B;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c7 > p {
+  color: #7D97AD;
+  font-size: 14px;
+  text-align: start;
+}
+
+.c8 {
+  color: #00175B;
+  font-size: 16px;
+}
+
+.c2 {
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 5px;
+  position: relative;
+  min-height: 250px;
+  height: 100%;
+}
+
+.c9 {
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 5px;
+  border: none;
+  background-color: #06eac3;
+  pointer-events: auto;
+  color: #00175B;
+  padding: 14px 48px;
+  font-size: 16px;
+  outline: none;
+}
+
+.c9:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+  background-color: #05d2af;
+  cursor: pointer;
+}
+
+.c0 {
+  max-width: 470px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.c0 > * {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:40em) {
+  .c1 {
+    width: 57.14285714285714%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c1 {
+    width: 42.857142857142854%;
+  }
+}
+
+<Home
+  dispatch={[Function]}
+  history=""
+  location={
+    Object {
+      "pathname": "/planet/1",
+    }
+  }
+  planet={
+    Object {
+      "climate": "temperate",
+      "created": "2014-12-10T11:54:13.921000Z",
+      "diameter": "12240",
+      "edited": "2014-12-20T20:58:18.432000Z",
+      "films": Array [
+        "https://swapi.co/api/films/5/",
+        "https://swapi.co/api/films/4/",
+        "https://swapi.co/api/films/6/",
+        "https://swapi.co/api/films/3/",
+      ],
+      "gravity": "1 standard",
+      "name": "Coruscant",
+      "orbital_period": "368",
+      "population": "1000000000000",
+      "residents": Array [
+        "https://swapi.co/api/people/34/",
+        "https://swapi.co/api/people/55/",
+        "https://swapi.co/api/people/74/",
+      ],
+      "rotation_period": "24",
+      "surface_water": "unknown",
+      "terrain": "cityscape, mountains",
+      "url": "https://swapi.co/api/planets/9/",
+    }
+  }
+>
   <Styled(Box)
     width={
       Array [
@@ -12,12 +174,711 @@ exports[`App Component renders properly 1`] = `
       ]
     }
   >
-    <Card
-      info="xyz"
-    />
-    <Button
-      text="Next"
-    />
+    <Box
+      className="c0"
+      width={
+        Array [
+          0.875,
+          0.5714285714285714,
+          0.5,
+          0.42857142857142855,
+        ]
+      }
+    >
+      <Base
+        className="c0 c1"
+        width={
+          Array [
+            0.875,
+            0.5714285714285714,
+            0.5,
+            0.42857142857142855,
+          ]
+        }
+      >
+        <div
+          className="c0 c1"
+          is={null}
+        >
+          <Card
+            planet={
+              Object {
+                "climate": "temperate",
+                "created": "2014-12-10T11:54:13.921000Z",
+                "diameter": "12240",
+                "edited": "2014-12-20T20:58:18.432000Z",
+                "films": Array [
+                  "https://swapi.co/api/films/5/",
+                  "https://swapi.co/api/films/4/",
+                  "https://swapi.co/api/films/6/",
+                  "https://swapi.co/api/films/3/",
+                ],
+                "gravity": "1 standard",
+                "name": "Coruscant",
+                "orbital_period": "368",
+                "population": "1000000000000",
+                "residents": Array [
+                  "https://swapi.co/api/people/34/",
+                  "https://swapi.co/api/people/55/",
+                  "https://swapi.co/api/people/74/",
+                ],
+                "rotation_period": "24",
+                "surface_water": "unknown",
+                "terrain": "cityscape, mountains",
+                "url": "https://swapi.co/api/planets/9/",
+              }
+            }
+          >
+            <styled.section>
+              <section
+                className="c2"
+              >
+                <Box
+                  width={
+                    Array [
+                      0.8,
+                    ]
+                  }
+                >
+                  <Base
+                    className="c3"
+                    width={
+                      Array [
+                        0.8,
+                      ]
+                    }
+                  >
+                    <div
+                      className="c3"
+                      is={null}
+                    >
+                      <Title
+                        text="Coruscant"
+                      >
+                        <styled.h1>
+                          <h1
+                            className="c4"
+                          >
+                            Coruscant
+                          </h1>
+                        </styled.h1>
+                      </Title>
+                      <Body
+                        planet={
+                          Object {
+                            "climate": "temperate",
+                            "created": "2014-12-10T11:54:13.921000Z",
+                            "diameter": "12240",
+                            "edited": "2014-12-20T20:58:18.432000Z",
+                            "films": Array [
+                              "https://swapi.co/api/films/5/",
+                              "https://swapi.co/api/films/4/",
+                              "https://swapi.co/api/films/6/",
+                              "https://swapi.co/api/films/3/",
+                            ],
+                            "gravity": "1 standard",
+                            "name": "Coruscant",
+                            "orbital_period": "368",
+                            "population": "1000000000000",
+                            "residents": Array [
+                              "https://swapi.co/api/people/34/",
+                              "https://swapi.co/api/people/55/",
+                              "https://swapi.co/api/people/74/",
+                            ],
+                            "rotation_period": "24",
+                            "surface_water": "unknown",
+                            "terrain": "cityscape, mountains",
+                            "url": "https://swapi.co/api/planets/9/",
+                          }
+                        }
+                      >
+                        <styled.section>
+                          <section
+                            className="c5"
+                          >
+                            <p
+                              key="POPULATION"
+                            >
+                               
+                              POPULATION
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  1000000000000
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                            <p
+                              key="CLIMATE"
+                            >
+                               
+                              CLIMATE
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  TEMPERATE
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                            <p
+                              key="TERRAIN"
+                            >
+                               
+                              TERRAIN
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  CITYSCAPE, MOUNTAINS
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                          </section>
+                        </styled.section>
+                      </Body>
+                      <Footer
+                        appearedInMovie={4}
+                      >
+                        <styled.section>
+                          <section
+                            className="c7"
+                          >
+                            <p>
+                              FEATURED IN
+                              <styled.span>
+                                <span
+                                  className="c8"
+                                >
+                                   
+                                  4
+                                </span>
+                              </styled.span>
+                               FILMS
+                            </p>
+                          </section>
+                        </styled.section>
+                      </Footer>
+                    </div>
+                  </Base>
+                </Box>
+              </section>
+            </styled.section>
+          </Card>
+          <Button
+            onPress={[Function]}
+            text="Next"
+          >
+            <styled.button
+              onClick={[Function]}
+            >
+              <button
+                className="c9"
+                onClick={[Function]}
+              >
+                Next
+              </button>
+            </styled.button>
+          </Button>
+        </div>
+      </Base>
+    </Box>
   </Styled(Box)>
-</div>
+</Home>
+`;
+
+exports[`App Component fetches one planet when on route "planet/:id"  1`] = `
+<Styled(Box)
+  width={
+    Array [
+      0.875,
+      0.5714285714285714,
+      0.5,
+      0.42857142857142855,
+    ]
+  }
+>
+  <Card
+    planet={
+      Object {
+        "climate": "temperate",
+        "created": "2014-12-10T11:54:13.921000Z",
+        "diameter": "12240",
+        "edited": "2014-12-20T20:58:18.432000Z",
+        "films": Array [
+          "https://swapi.co/api/films/5/",
+          "https://swapi.co/api/films/4/",
+          "https://swapi.co/api/films/6/",
+          "https://swapi.co/api/films/3/",
+        ],
+        "gravity": "1 standard",
+        "name": "Coruscant",
+        "orbital_period": "368",
+        "population": "1000000000000",
+        "residents": Array [
+          "https://swapi.co/api/people/34/",
+          "https://swapi.co/api/people/55/",
+          "https://swapi.co/api/people/74/",
+        ],
+        "rotation_period": "24",
+        "surface_water": "unknown",
+        "terrain": "cityscape, mountains",
+        "url": "https://swapi.co/api/planets/9/",
+      }
+    }
+  />
+  <Button
+    onPress={[Function]}
+    text="Next"
+  />
+</Styled(Box)>
+`;
+
+exports[`App Component fetches one specific planet when clicks on Next and amount is available  1`] = `
+.c1 {
+  box-sizing: border-box;
+  width: 87.5%;
+}
+
+.c3 {
+  box-sizing: border-box;
+  width: 80%;
+}
+
+.c4 {
+  color: #06eac3;
+  font-weight: 300;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbe2e8;
+}
+
+.c5 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbe2e8;
+}
+
+.c5 > p {
+  color: #7D97AD;
+  font-size: 14px;
+  text-align: start;
+}
+
+.c6 {
+  color: #00175B;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c7 > p {
+  color: #7D97AD;
+  font-size: 14px;
+  text-align: start;
+}
+
+.c8 {
+  color: #00175B;
+  font-size: 16px;
+}
+
+.c2 {
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 5px;
+  position: relative;
+  min-height: 250px;
+  height: 100%;
+}
+
+.c9 {
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+  border-radius: 5px;
+  border: none;
+  background-color: #06eac3;
+  pointer-events: auto;
+  color: #00175B;
+  padding: 14px 48px;
+  font-size: 16px;
+  outline: none;
+}
+
+.c9:hover {
+  box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+  background-color: #05d2af;
+  cursor: pointer;
+}
+
+.c0 {
+  max-width: 470px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.c0 > * {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width:40em) {
+  .c1 {
+    width: 57.14285714285714%;
+  }
+}
+
+@media screen and (min-width:52em) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:64em) {
+  .c1 {
+    width: 42.857142857142854%;
+  }
+}
+
+<Home
+  dispatch={[Function]}
+  history=""
+  location={
+    Object {
+      "pathname": "/",
+    }
+  }
+  planet={
+    Object {
+      "climate": "temperate",
+      "created": "2014-12-10T11:54:13.921000Z",
+      "diameter": "12240",
+      "edited": "2014-12-20T20:58:18.432000Z",
+      "films": Array [
+        "https://swapi.co/api/films/5/",
+        "https://swapi.co/api/films/4/",
+        "https://swapi.co/api/films/6/",
+        "https://swapi.co/api/films/3/",
+      ],
+      "gravity": "1 standard",
+      "name": "Coruscant",
+      "orbital_period": "368",
+      "population": "1000000000000",
+      "residents": Array [
+        "https://swapi.co/api/people/34/",
+        "https://swapi.co/api/people/55/",
+        "https://swapi.co/api/people/74/",
+      ],
+      "rotation_period": "24",
+      "surface_water": "unknown",
+      "terrain": "cityscape, mountains",
+      "url": "https://swapi.co/api/planets/9/",
+    }
+  }
+  planetID={1}
+>
+  <Styled(Box)
+    width={
+      Array [
+        0.875,
+        0.5714285714285714,
+        0.5,
+        0.42857142857142855,
+      ]
+    }
+  >
+    <Box
+      className="c0"
+      width={
+        Array [
+          0.875,
+          0.5714285714285714,
+          0.5,
+          0.42857142857142855,
+        ]
+      }
+    >
+      <Base
+        className="c0 c1"
+        width={
+          Array [
+            0.875,
+            0.5714285714285714,
+            0.5,
+            0.42857142857142855,
+          ]
+        }
+      >
+        <div
+          className="c0 c1"
+          is={null}
+        >
+          <Card
+            planet={
+              Object {
+                "climate": "temperate",
+                "created": "2014-12-10T11:54:13.921000Z",
+                "diameter": "12240",
+                "edited": "2014-12-20T20:58:18.432000Z",
+                "films": Array [
+                  "https://swapi.co/api/films/5/",
+                  "https://swapi.co/api/films/4/",
+                  "https://swapi.co/api/films/6/",
+                  "https://swapi.co/api/films/3/",
+                ],
+                "gravity": "1 standard",
+                "name": "Coruscant",
+                "orbital_period": "368",
+                "population": "1000000000000",
+                "residents": Array [
+                  "https://swapi.co/api/people/34/",
+                  "https://swapi.co/api/people/55/",
+                  "https://swapi.co/api/people/74/",
+                ],
+                "rotation_period": "24",
+                "surface_water": "unknown",
+                "terrain": "cityscape, mountains",
+                "url": "https://swapi.co/api/planets/9/",
+              }
+            }
+          >
+            <styled.section>
+              <section
+                className="c2"
+              >
+                <Box
+                  width={
+                    Array [
+                      0.8,
+                    ]
+                  }
+                >
+                  <Base
+                    className="c3"
+                    width={
+                      Array [
+                        0.8,
+                      ]
+                    }
+                  >
+                    <div
+                      className="c3"
+                      is={null}
+                    >
+                      <Title
+                        text="Coruscant"
+                      >
+                        <styled.h1>
+                          <h1
+                            className="c4"
+                          >
+                            Coruscant
+                          </h1>
+                        </styled.h1>
+                      </Title>
+                      <Body
+                        planet={
+                          Object {
+                            "climate": "temperate",
+                            "created": "2014-12-10T11:54:13.921000Z",
+                            "diameter": "12240",
+                            "edited": "2014-12-20T20:58:18.432000Z",
+                            "films": Array [
+                              "https://swapi.co/api/films/5/",
+                              "https://swapi.co/api/films/4/",
+                              "https://swapi.co/api/films/6/",
+                              "https://swapi.co/api/films/3/",
+                            ],
+                            "gravity": "1 standard",
+                            "name": "Coruscant",
+                            "orbital_period": "368",
+                            "population": "1000000000000",
+                            "residents": Array [
+                              "https://swapi.co/api/people/34/",
+                              "https://swapi.co/api/people/55/",
+                              "https://swapi.co/api/people/74/",
+                            ],
+                            "rotation_period": "24",
+                            "surface_water": "unknown",
+                            "terrain": "cityscape, mountains",
+                            "url": "https://swapi.co/api/planets/9/",
+                          }
+                        }
+                      >
+                        <styled.section>
+                          <section
+                            className="c5"
+                          >
+                            <p
+                              key="POPULATION"
+                            >
+                               
+                              POPULATION
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  1000000000000
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                            <p
+                              key="CLIMATE"
+                            >
+                               
+                              CLIMATE
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  TEMPERATE
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                            <p
+                              key="TERRAIN"
+                            >
+                               
+                              TERRAIN
+                              : 
+                              <styled.span>
+                                <span
+                                  className="c6"
+                                >
+                                  CITYSCAPE, MOUNTAINS
+                                   
+                                </span>
+                              </styled.span>
+                            </p>
+                          </section>
+                        </styled.section>
+                      </Body>
+                      <Footer
+                        appearedInMovie={4}
+                      >
+                        <styled.section>
+                          <section
+                            className="c7"
+                          >
+                            <p>
+                              FEATURED IN
+                              <styled.span>
+                                <span
+                                  className="c8"
+                                >
+                                   
+                                  4
+                                </span>
+                              </styled.span>
+                               FILMS
+                            </p>
+                          </section>
+                        </styled.section>
+                      </Footer>
+                    </div>
+                  </Base>
+                </Box>
+              </section>
+            </styled.section>
+          </Card>
+          <Button
+            onPress={[Function]}
+            text="Next"
+          >
+            <styled.button
+              onClick={[Function]}
+            >
+              <button
+                className="c9"
+                onClick={[Function]}
+              >
+                Next
+              </button>
+            </styled.button>
+          </Button>
+        </div>
+      </Base>
+    </Box>
+  </Styled(Box)>
+</Home>
+`;
+
+exports[`App Component renders properly and fetches all planets when on route "/" 1`] = `
+<Styled(Box)
+  width={
+    Array [
+      0.875,
+      0.5714285714285714,
+      0.5,
+      0.42857142857142855,
+    ]
+  }
+>
+  <Card
+    planet={
+      Object {
+        "climate": "temperate",
+        "created": "2014-12-10T11:54:13.921000Z",
+        "diameter": "12240",
+        "edited": "2014-12-20T20:58:18.432000Z",
+        "films": Array [
+          "https://swapi.co/api/films/5/",
+          "https://swapi.co/api/films/4/",
+          "https://swapi.co/api/films/6/",
+          "https://swapi.co/api/films/3/",
+        ],
+        "gravity": "1 standard",
+        "name": "Coruscant",
+        "orbital_period": "368",
+        "population": "1000000000000",
+        "residents": Array [
+          "https://swapi.co/api/people/34/",
+          "https://swapi.co/api/people/55/",
+          "https://swapi.co/api/people/74/",
+        ],
+        "rotation_period": "24",
+        "surface_water": "unknown",
+        "terrain": "cityscape, mountains",
+        "url": "https://swapi.co/api/planets/9/",
+      }
+    }
+  />
+  <Button
+    onPress={[Function]}
+    text="Next"
+  />
+</Styled(Box)>
 `;

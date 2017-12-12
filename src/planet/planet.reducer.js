@@ -1,6 +1,6 @@
 import {GET_PLANETS, GET_PLANET} from "./planet.type";
 
-const initialState = {
+export const initialState = {
     isPending: false,
     isDone: false,
     error: null,
