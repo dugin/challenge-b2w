@@ -25,7 +25,7 @@ export const api = {
 
 };
 export const getPlanets = () => {
-    return api.get('planets');
+    return api.get('planets/');
 };
 
 export const getPlanet = (id) => {
