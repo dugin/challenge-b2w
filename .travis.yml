@@ -20,6 +20,7 @@ install:
   - yarn
 
 script:
+  - yarn test:CI
   - yarn build
 
 deploy:
