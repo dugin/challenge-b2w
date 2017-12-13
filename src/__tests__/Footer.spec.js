@@ -3,7 +3,7 @@ import toJson from 'enzyme-to-json';
 import {shallow} from 'enzyme';
 import Footer, {Wrapper} from "../components/Footer";
 
-describe('App Component', () => {
+describe('Footer Component', () => {
 
     const footer = shallow(<Footer/>);
 

@@ -6,7 +6,7 @@ import {planetMock} from "../__mocks__/responseMock";
 import {mock} from '../__mocks__/axiosMock'
 import Button from "../components/Button";
 
-describe('App Component', () => {
+describe('Home Component', () => {
 
     const props = {
         planet: planetMock,

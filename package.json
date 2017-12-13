@@ -42,6 +42,9 @@
       "!src/rootReducer.js"
     ]
   },
+  "reactSnapshot": {
+    "snapshotDelay": 5000
+  },
   "scripts": {
     "start": "PORT=1234 react-scripts start",
     "build": "react-scripts build && react-snapshot",

@@ -4,7 +4,7 @@ import {shallow, mount } from 'enzyme';
 import Footer, {Content} from "../components/Card/Footer";
 import {planetMock} from "../__mocks__/responseMock";
 
-describe('Card Component', () => {
+describe('Footer Card Component', () => {
 
     const footerCard = shallow(<Footer appearedInMovie={planetMock.films.length}/>);
 

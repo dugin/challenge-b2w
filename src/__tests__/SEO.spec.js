@@ -4,7 +4,7 @@ import {shallow} from 'enzyme';
 import App from "../App";
 import SEO from "../components/SEO";
 
-describe('App Component', () => {
+describe('SEO Component', () => {
 
     const seo = shallow(<SEO/>);
 

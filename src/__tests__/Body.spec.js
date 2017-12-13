@@ -4,7 +4,7 @@ import {shallow} from 'enzyme';
 import Body from "../components/Card/Body";
 import {planetMock} from "../__mocks__/responseMock";
 
-describe('Card Component', () => {
+describe('Body Component', () => {
 
     const body = shallow(<Body planet={planetMock}/>);
     const constants = ['POPULATION', 'CLIMATE', 'TERRAIN'];
