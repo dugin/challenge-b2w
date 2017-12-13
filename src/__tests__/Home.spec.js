@@ -1,7 +1,7 @@
 import React from 'react';
 import toJson from 'enzyme-to-json';
 import {shallow, mount} from 'enzyme';
-import {Home} from "../pages/Home";
+import {Home, mapStateToProps} from "../pages/Home";
 import {planetMock} from "../__mocks__/responseMock";
 import {mock} from '../__mocks__/axiosMock'
 import Button from "../components/Button";
@@ -10,7 +10,7 @@ describe('App Component', () => {
 
     const props = {
         planet: planetMock,
-        location: {pathname : '/'},
+        location: {pathname: '/'},
         dispatch: jest.fn()
     };
 
@@ -23,7 +23,7 @@ describe('App Component', () => {
     it('fetches one planet when on route "planet/:id" ', () => {
         const props = {
             planet: planetMock,
-            location: {pathname : '/planet/1'},
+            location: {pathname: '/planet/1'},
             dispatch: jest.fn()
         };
         const home = shallow(<Home {...props}/>);
@@ -35,7 +35,7 @@ describe('App Component', () => {
     it('fetches all planets when clicks on Next and no planet amount available ', () => {
         const props = {
             planet: planetMock,
-            location: {pathname : '/planet/1'},
+            location: {pathname: '/planet/1'},
             history: '',
             dispatch: jest.fn()
         };
@@ -49,7 +49,7 @@ describe('App Component', () => {
     it('fetches one specific planet when clicks on Next and amount is available ', () => {
         const props = {
             planet: planetMock,
-            location: {pathname : '/'},
+            location: {pathname: '/'},
             history: '',
             planetID: 1,
             dispatch: jest.fn()
@@ -59,5 +59,24 @@ describe('App Component', () => {
         home.find(Button).simulate('click');
 
         expect(toJson(home)).toMatchSnapshot();
+    });
+
+    it('mapStateToProps properly', () => {
+
+
+        expect(mapStateToProps({
+            planets: {
+                planet: planetMock,
+                isPending: false,
+                isDone: true,
+                error: null,
+                amount: 0
+            }
+        })).toEqual({
+                planet: planetMock,
+                planetID: false,
+                isLoading: false,
+                error: false
+            });
     });
 });
