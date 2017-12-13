@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Component renders properly 1`] = `
+exports[`SEO Component renders properly 1`] = `
 <HelmetWrapper
   defer={true}
   encodeSpecialCharacters={true}

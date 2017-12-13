@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card Component renders properly 1`] = `
+exports[`Footer Card Component renders properly 1`] = `
 <styled.section>
   <p>
     FEATURED IN

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App Component fetches all planets when clicks on Next and no planet amount available  1`] = `
+exports[`Home Component fetches all planets when clicks on Next and no planet amount available  1`] = `
 .c1 {
   box-sizing: border-box;
   width: 87.5%;
@@ -394,7 +394,7 @@ exports[`App Component fetches all planets when clicks on Next and no planet amo
 </Home>
 `;
 
-exports[`App Component fetches one planet when on route "planet/:id"  1`] = `
+exports[`Home Component fetches one planet when on route "planet/:id"  1`] = `
 <Styled(Box)
   width={
     Array [
@@ -441,7 +441,7 @@ exports[`App Component fetches one planet when on route "planet/:id"  1`] = `
 </Styled(Box)>
 `;
 
-exports[`App Component fetches one specific planet when clicks on Next and amount is available  1`] = `
+exports[`Home Component fetches one specific planet when clicks on Next and amount is available  1`] = `
 .c1 {
   box-sizing: border-box;
   width: 87.5%;
@@ -836,7 +836,7 @@ exports[`App Component fetches one specific planet when clicks on Next and amoun
 </Home>
 `;
 
-exports[`App Component renders properly and fetches all planets when on route "/" 1`] = `
+exports[`Home Component renders properly and fetches all planets when on route "/" 1`] = `
 <Styled(Box)
   width={
     Array [
